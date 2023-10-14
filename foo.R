@@ -1,7 +1,12 @@
 #Radius
 r<-2
 
-#Function to compute the volumes of the spheres with radius r, r^2 andd r^3
+#Function to compute the volumes of the spheres with radius r, r^2 and r^3
+volume <- function(r, rho){
+  3/4*pi*r^2
+}
+
+
 volume_vector <- function(r){
   r <- 22
   for (r in 2:4){
@@ -13,3 +18,4 @@ volume_vector <- function(r){
 #radius r, r^2 and r^3
 
 volume_vector(r)
+
