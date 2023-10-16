@@ -28,5 +28,3 @@ volume_vector <- function(r){
 
 volume_vector(r)
 
-#volumer2 <- 4/3*pi*r^4
-#volume3 <- 4/3*pi*r^6
